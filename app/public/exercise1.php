@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-<form action="demo.php" method="POST">
+<form action="demo.php" method="GET">
     
 <label for="firstname">First name:</label><br>
 <input type="text" id="firstname" name="firstname" value="John"><br>
 
 <label for="age">Birth date:</label><br>
-<input type="date" id="age" name="age" value="18"><br><br>
+<input type="date" id="age" name="age" value="1968-11-22"><br><br> <!-- value="1968-11-22" -->
 
 <input type="submit" value="Submit">
 </form>
