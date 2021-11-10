@@ -5,8 +5,8 @@
     error_reporting(E_ALL);
     // Startup code goes here
     if (isset($_POST["firstname"], $_POST["lastname"])){
-        echo $_POST["firstname"];
+        echo "firstname: " . $_POST["firstname"];
         echo "</br>";
-        echo $_POST['lastname'];
+        echo "lastname: " . $_POST['lastname'];
       }
 ?>

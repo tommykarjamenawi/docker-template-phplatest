@@ -17,8 +17,8 @@
     $actualAge = getAgeFromString($birth_date); // converte date to age
     
     if (isset($_GET["firstname"], $_GET["age"])){
-        echo $_GET["firstname"];
+        echo "your name is: ".$_GET["firstname"];
         echo "</br>";
-        echo $actualAge;
+        echo "you are ".$actualAge. " years old";
       }
 ?>
