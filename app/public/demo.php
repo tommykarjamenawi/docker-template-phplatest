@@ -6,7 +6,7 @@
 
     // Startup code goes here
     //$birth_date = '1991-12-10';
-    $birth_date = $_POST["age"];
+    $birth_date = $_GET["age"];
     //$actualAge = strtotime($birthDate);
  
     function getAgeFromString($birth_date) { // calculate age from a string
