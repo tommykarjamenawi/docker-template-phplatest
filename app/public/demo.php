@@ -3,9 +3,9 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
     // Startup code goes here
-    if (isset($_GET["firstname"], $_GET["lastname"])){
-        echo $_GET["firstname"];
+    if (isset($_POST["firstname"], $_POST["age"])){
+        echo $_POST["firstname"];
         echo "</br>";
-        echo $_GET['lastname'];
+        echo $_POST['age'];
       }
 ?>

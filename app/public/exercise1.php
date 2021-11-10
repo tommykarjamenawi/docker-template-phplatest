@@ -7,24 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-<form action="exercise1.php" method="POST">
+<form action="demo.php" method="POST">
+    
 <label for="firstname">First name:</label><br>
 <input type="text" id="firstname" name="firstname" value="John"><br>
-<label for="lastname">Last name:</label><br>
-<input type="text" id="lastname" name="lastname" value="Doe"><br><br>
+
+<label for="age">Age:</label><br>
+<input type="text" id="age" name="age" value="18"><br><br>
+
 <input type="submit" value="Submit">
 </form>
 <br>
-<?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-    // Startup code goes here
-    if (isset($_GET["firstname"], $_GET["lastname"])){
-        echo $_GET["firstname"];
-        echo "</br>";
-        echo $_GET['lastname'];
-      }
-?>
+
 </body>
 </html>
