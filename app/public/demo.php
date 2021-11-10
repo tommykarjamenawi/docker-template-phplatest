@@ -14,6 +14,7 @@
             : (date("Y") - $birth_date[0]));
         return $age;
     }
+    
     $actualAge = getAgeFromString($birth_date); // converte date to age
     
     if (isset($_GET["firstname"], $_GET["age"])){

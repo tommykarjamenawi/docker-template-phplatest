@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="demo.php" method="GET">
+    <div class="container"><form action="demo.php" method="GET">
     
-<label for="firstname">First name:</label><br>
-<input type="text" id="firstname" name="firstname" value="John"><br>
+    <label for="firstname">First name:</label><br>
+    <input type="text" id="firstname" name="firstname" value="John"><br>
+    
+    <label for="age">Birth date:</label><br>
+    <input type="date" id="age" name="age" value="1968-11-22"><br><br> <!-- value="1968-11-22" -->
+    
+    <input type="submit" value="Submit">
+    </form>
+    <br></div>
 
-<label for="age">Birth date:</label><br>
-<input type="date" id="age" name="age" value="1968-11-22"><br><br> <!-- value="1968-11-22" -->
-
-<input type="submit" value="Submit">
-</form>
-<br>
 
 </body>
 </html>
