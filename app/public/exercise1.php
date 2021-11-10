@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="demo.php" method="POST">
+<form action="exercise1.php" method="POST">
 <label for="firstname">First name:</label><br>
 <input type="text" id="firstname" name="firstname" value="John"><br>
 <label for="lastname">Last name:</label><br>
